@@ -1,0 +1,462 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.body1 {
+  background-color: rgba(123, 241, 123, 0.226);
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h3 {
+  color: #01b671;
+  margin-left: 1rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(17, 16, 16);
+  font-size: 19px;
+}
+
+.Login {
+  padding: 4rem 20px;
+  background-color: #01b671;
+  border-radius: 20rem;
+}
+
+nav ul li a:hover {
+  box-shadow: 0px 4px 10px #ff7300;
+}
+
+/* Content is given */
+.content1 {
+  margin: 5%;
+}
+
+.contentimg img {
+  width: 550px;
+  height: 550px;
+  float: right;
+  margin-top: -11rem;
+  margin-right: 5%;
+}
+
+.contenttext {
+  margin-left: 7%;
+}
+
+.contenttext h1 {
+  margin-top: 15%;
+  color: #01b671;
+  font-size: 40px;
+}
+
+.contenttext p {
+  margin-top: 5px;
+  color: #01b671;
+  font-size: 18px;
+}
+
+.contenttext button {
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #01b671;
+  margin-top: 5px;
+  border: none;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-left: 29rem;
+  color: #01b671;
+  font-size: 2rem;
+}
+
+/* Online Course is given */
+.web {
+  box-shadow: 0px 3px 30px #180cb8;
+  width: 19%;
+  height: 22vh;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.web-content i {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 30px;
+}
+
+.web-content h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.web-content p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1%;
+}
+
+.web-content button {
+  margin-top: 1%;
+  margin-left: 5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background: #564130;
+}
+
+/*  */
+.digital {
+  box-shadow: 0px 3px 30px #180cb8;
+  width: 19%;
+  height: 22vh;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.marketing-content i {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 30px;
+}
+
+.marketing-content h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.marketing-content p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1%;
+}
+
+.marketing-content button {
+  margin-top: 1%;
+  margin-left: 5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background: #564130;
+}
+
+/* Digital Markeyng is End */
+/* Graphic design is Given */
+.graphic {
+  box-shadow: 0px 3px 30px #180cb8;
+  width: 19%;
+  height: 22vh;
+  float: right;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+
+.design-content i {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 30px;
+}
+
+.design-content h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.design-content p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1%;
+}
+
+.design-content button {
+  margin-top: 1%;
+  margin-left: 5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background: #564130;
+}
+
+/* Graphic design is  End */
+/*  Appplication Development is Given */
+.App {
+  box-shadow: 0px 3px 30px #180cb8;
+  width: 19%;
+  height: 22vh;
+  float: right;
+  margin-right: 6rem;
+  margin-top: 2rem;
+}
+
+.develop-content i {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 30px;
+}
+
+.develop-content h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.develop-content p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1%;
+}
+
+.develop-content button {
+  margin-top: 1%;
+  margin-left: 5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background: #564130;
+}
+
+/*  Appplication Development is  End  */
+/* Online Course is End*/
+/* Testminorial */
+
+.Testminorial h3 {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.tesr {
+  width: 20rem;
+  height: 19rem;
+  float: right;
+  box-shadow: 3px 2px 3px 4px #000000;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.tesr:hover {
+  box-shadow: 7px 8px 10px #01b671;
+}
+
+.centmg img {
+  width: 140px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 29%;
+}
+
+.centmg h1 {
+  text-align: center;
+  color: #01b671;
+  font-size: 25px;
+}
+
+.centmg p {
+  color: rgb(80, 80, 80);
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+.centmg .fa-star {
+  color: orange;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.te2 {
+  width: 20rem;
+  height: 19rem;
+  float: right;
+  box-shadow: 3px 2px 3px 4px #000000;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.te2:hover {
+  box-shadow: 1px 1px 30px 1px #ff1f75;
+}
+
+.cntimg img {
+  width: 140px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 29%;
+}
+
+.cntimg h1 {
+  text-align: center;
+  color: #01b671;
+  font-size: 25px;
+}
+
+.cntimg p {
+  color: rgb(80, 80, 80);
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+.cntimg .fa-star {
+  color: orange;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.te3 {
+  width: 20rem;
+  height: 19rem;
+  float: right;
+  box-shadow: 3px 2px 3px 4px #000000;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.te3:hover {
+  box-shadow: 7px 8px 10px #01b671;
+}
+
+.centimg img {
+  width: 140px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 29%;
+}
+
+.centimg h1 {
+  text-align: center;
+  color: #01b671;
+  font-size: 25px;
+}
+
+.centimg p {
+  color: rgb(80, 80, 80);
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+.centimg .fa-star {
+  color: orange;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+/* Footer Section */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #01b671;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 28px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: bold;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #671bf3c0;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #00e1ff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #ff7300;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.footer-head h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+margin-top: 25rem;  
+}
+.footer-col .social-links a:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.social-links p {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 1rem;
+}
